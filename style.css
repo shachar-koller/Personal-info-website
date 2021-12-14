@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(66, 66, 66);
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.class-1{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.class-2{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
