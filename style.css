@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
@@ -61,6 +61,11 @@ a {
     text-decoration: none;
 }
 
+b {
+    color: #000000;
+    font-weight: normal;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -80,7 +85,7 @@ ul {
     text-decoration: none;
     font-weight: 500;
     margin: 2px 0;
-    transition: background 0.2s, box-shadow 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s;
     box-shadow: 0 2px 6px rgba(0,0,0,0.04);
 }
 .button-link i {
@@ -90,4 +95,28 @@ ul {
     background-color: #005f99;
     text-decoration: none;
     color: #fff;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.linkedin-icon {
+    vertical-align: text-bottom;
+}
+
+.github-icon {
+    vertical-align: -6px;
+}
+
+.download-icon {
+    vertical-align: text-bottom;
 }
